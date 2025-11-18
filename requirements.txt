@@ -1,0 +1,13 @@
+# ---- Hugging Face Space (Your_instantAIfriend) ----
+transformers>=4.40.0
+gradio>=4.24.0
+accelerate
+torch
+peft>=0.10.0
+bitsandbytes>=0.42.0
+huggingface_hub>=0.23.0
+
+# ---- Local monitoring script (emotion_monitor_hgspace2.py) ----
+requests>=2.31.0
+pyserial>=3.5
+python-dotenv>=1.0.0
