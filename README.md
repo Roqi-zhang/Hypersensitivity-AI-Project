@@ -138,7 +138,7 @@ Checks runtime.stage:
 
 RUNNING → open Space
 
-BUILDING / SLEEPING → wait
+BUILDING / SLEEPING → wait (The continuous running time of space is 5 minutes. If space is in the sleeping state, just wake it up)
 
 ERROR → notify user
 
@@ -190,7 +190,7 @@ Example output:
   "HRV_RMSSD": 28,
   "RRInterval": 701,
   "Circulation": 10,
-  "EmotionDetected": false
+  "EmotionDetected": false/detected
 }
 ```
 ## 6. Model Fine-Tuning & Dataset
@@ -267,8 +267,6 @@ This project is a research & design exploration, not a clinical tool.
 Does not diagnose medical conditions
 
 Data is collected with informed consent
-
-Shared datasets are anonymized
 
 AI responses are for emotional support, not therapy
 
