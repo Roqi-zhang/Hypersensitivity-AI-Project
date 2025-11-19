@@ -78,7 +78,7 @@ Please refer to the Hugging Face dataset card for more detailed licensing and et
 ## 6. How This Dataset Is Used in the Project
 
 Used to fine-tune an empathetic chatbot model deployed in the Hugging Face Space
-👉 christinashihan/Your_instantAIfriend
+👉 `christinashihan/Your_instantAIfriend`
 
 Provides domain-specific emotional patterns for HSPs, leading to:
 
