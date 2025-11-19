@@ -66,16 +66,24 @@ InnerHarbor-HSP-Companion/
 ├── requirements.txt         # Python dependencies
 ├── sensors/
 │   ├── arduino/
-│   │   └── inner_harbor.ino # Arduino sketch
+│   │   └── HRV_heart_GSR_english_copy_20251118184200.ino
 ├── webapp/
 │   ├── app.py               # Hugging Face Space interface
+├── fine-tuned/
+│   ├── fine-tuned process.docx    # Fine-tuning steps and code
 ├── dataset/
 │   ├── README.md            # Dataset card & ethics
-│   └── samples/             # Small sample data
+│   └── samples/             # Sample data
+├── future vision/
+│   ├── video                # Video display
+│   └── illustration/        # Usage scenario simulation
 └── docs/
     ├── architecture.png     # System overview diagram
     ├── hardware_setup.jpg   # Sensor + Arduino photo
     └── ui_screenshot.png    # Space interface screenshot
+    └── ui_screenshot1.png    # Space interface screenshot
+
+
 ```
   
 4. Core Python Script Explanation
