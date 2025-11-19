@@ -75,7 +75,7 @@ InnerHarbor-HSP-Companion/
 │   ├── README.md            # Dataset card & ethics
 │   └── samples/             # Sample data
 ├── future vision/
-│   ├── video.mp4                # Video display
+│   ├── INNER HARBOE DISPLAY VIDEO.docx    # Video display
 │   └── illustration1.jpg    # Usage scenario simulation
 │   └── illustration2.jpg    # Usage scenario simulation
 └── docs/
