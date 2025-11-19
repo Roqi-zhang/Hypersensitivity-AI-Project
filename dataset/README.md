@@ -9,7 +9,6 @@ This folder documents the datasets used in the **Inner Harbor** project, an empa
 
 > 🔹 **Important:**  
 > The **full datasets are hosted on Hugging Face** for version control and easier downloading.  
-> This GitHub repo only contains **small samples and documentation**, so that reviewers can quickly understand the data structure.
 
 ---
 
