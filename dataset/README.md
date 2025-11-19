@@ -17,7 +17,7 @@ This folder documents the datasets used in the **Inner Harbor** project, an empa
 You can find the full datasets here:
 
 - **Main mixed dialogue dataset (for model fine-tuning)**  
-  👉 `christinashihan/HSP_mixdataset_transformers`  
+  👉 `christinashihan/empathy_conciseediting`  
   Example usage:
 
   ```python
