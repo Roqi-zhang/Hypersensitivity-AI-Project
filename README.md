@@ -75,15 +75,14 @@ InnerHarbor-HSP-Companion/
 │   ├── README.md            # Dataset card & ethics
 │   └── samples/             # Sample data
 ├── future vision/
-│   ├── video                # Video display
-│   └── illustration/        # Usage scenario simulation
+│   ├── video.mp4                # Video display
+│   └── illustration1.jpg    # Usage scenario simulation
+│   └── illustration2.jpg    # Usage scenario simulation
 └── docs/
     ├── architecture.png     # System overview diagram
     ├── hardware_setup.jpg   # Sensor + Arduino photo
     └── ui_screenshot.png    # Space interface screenshot
     └── ui_screenshot1.png    # Space interface screenshot
-
-
 ```
   
 ## 4. Core Python Script Explanation
