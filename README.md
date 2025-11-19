@@ -86,7 +86,7 @@ InnerHarbor-HSP-Companion/
 
 ```
   
-4. Core Python Script Explanation
+## 4. Core Python Script Explanation
 
 Main objective:
 Monitor physiological parameters → detect anomalies → automatically trigger the AI support interface.
