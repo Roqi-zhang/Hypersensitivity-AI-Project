@@ -91,7 +91,7 @@ InnerHarbor-HSP-Companion/
 Main objective:
 Monitor physiological parameters → detect anomalies → automatically trigger the AI support interface.
 
-### **4.1 Key Configurations
+### 4.1 Key Configurations
 ```
 
 SPACE_ID   = "christinashihan/Your_instantAIfriend"
@@ -111,7 +111,7 @@ HF_TOKEN=your_real_token_here
 
 Then load it in Python via os.getenv("HF_TOKEN") or a library like python-dotenv.
 
-### **4.2 Emotion Detection
+### 4.2 Emotion Detection
 
 Emotion thresholds are defined in a dictionary:
 ```
@@ -127,7 +127,7 @@ If 3 indicators match the threshold → emotion detected.
 
 If 3 consecutive detections occur → considered a stable anomaly.
 
-### **4.3 Hugging Face Space Launching
+### 4.3 Hugging Face Space Launching
 
 The script calls:
 ```
@@ -194,7 +194,7 @@ Example output:
 }
 ```
 ## 6. Model Fine-Tuning & Dataset
-### **6.1 Dataset Construction
+### 6.1 Dataset Construction
 
 The fine-tuning dataset includes:
 
@@ -214,7 +214,7 @@ Format:
   "output": "..."
 }
 ```
-### **6.2 Fine-Tuning Pipeline
+### 6.2 Fine-Tuning Pipeline
 
 Base model: DeepSeek-R1-Distill-Llama-8B
 
@@ -228,11 +228,11 @@ Outcome:
 The model responds more warmly, deeply, and contextually — aligned with HSP emotional needs.
 
 ## 7. Installation & Usage
-### **7.1 Install Dependencies
+### 7.1 Install Dependencies
 ```
 pip install -r requirements.txt
 ```
-### **7.2 Configure Your Environment
+### 7.2 Configure Your Environment
 
 Create a .env file:
 ```
@@ -242,7 +242,7 @@ SPACE_URL=https://christinashihan-your-instantaifriend.hf.space
 SERIAL_PORT=COM3
 BAUD_RATE=9600
 ```
-### **7.3 Upload Arduino Sketch
+### 7.3 Upload Arduino Sketch
 
 In Arduino IDE:
 
@@ -252,7 +252,7 @@ Select correct board + port
 
 Upload
 
-### **7.4 Run the Monitoring Script
+### 7.4 Run the Monitoring Script
 ```
 cd sensors/python
 python monitor_and_launch.py
