@@ -26,11 +26,10 @@ You can find the full datasets here:
   ds = load_dataset("christinashihan/empathy_conciseediting")
   print(ds)
 
-3. Sample Files in This Folder
+## 3. Sample Files in This Folder
 
 To help readers quickly inspect the data format, this folder may include:
 
-sample_hsp_data.json
 A small sample of the instruction-style training data used to fine-tune the empathetic chatbot.
 
 Typical record structure:
@@ -44,21 +43,23 @@ Typical record structure:
 
 The full dataset on Hugging Face follows the same schema but contains many more examples.
 
-4. Data Sources & Collection
+## 4. Data Sources & Collection
 
 Physiological data are collected from wearable sensors (heart rate, HRV, GSR, temperature, breath rate, etc.) via Arduino and an integrated biosensor module.
 
 Dialogue data are constructed from:
 
-Simulated counseling-style conversations
+Professional psychological corpus40%
 
-HSP-specific emotional scenarios
+Empathetic dialogue40%
+
+General Dialogue20%
 
 Curated empathetic responses enriched with emojis for warmth
 
 All data used for training or demonstration in this project are de-identified.
 
-5. Ethics & Usage
+## 5. Ethics & Usage
 
 The dataset is intended for research and educational purposes only.
 
@@ -70,7 +71,7 @@ Respect the original context and purpose
 
 Avoid any attempts at re-identification
 
-Provide proper attribution to the author: Shihan Zhang (christinashihan)
+Provide proper attribution to the author: Shihan Zhang
 
 Please refer to the Hugging Face dataset card for more detailed licensing and ethical notes.
 
