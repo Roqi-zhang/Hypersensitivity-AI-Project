@@ -74,10 +74,6 @@ InnerHarbor-HSP-Companion/
 ├── dataset/
 │   ├── README.md            # Dataset card & ethics
 │   └── samples/             # Sample data
-├── future vision/
-│   ├── INNER HARBOE DISPLAY VIDEO.docx    # Video display
-│   └── illustration1.jpg    # Usage scenario simulation
-│   └── illustration2.jpg    # Usage scenario simulation
 └── docs/
     ├── architecture.png     # System overview diagram
     ├── hardware_setup.jpg   # Sensor + Arduino photo
