@@ -14,10 +14,9 @@
 
 This repository documents the **full technical pipeline** of _Inner Harbor_:
 
-1. **Physiological sensing** via Arduino + multiple biosensors  
-2. **Real-time emotion detection** based on multi-parameter rules  
-3. **Fine-tuned empathetic dialogue model** deployed on Hugging Face Spaces  
-4. **Python bridge script** that monitors the body, detects anomalies, and automatically opens the AI companion when needed
+1. **Physiological sensing** Real-time emotion detection via Arduino + multiple biosensors. 
+2. **Fine-tuned empathetic dialogue model** deployed on Hugging Face Spaces  
+3. **Python bridge script** that detects anomalies, and automatically opens the AI companion when needed
 
 The goal is to show not only a demo, but the **complete thinking process** behind the system — from research and concept to engineering implementation.
 
