@@ -49,11 +49,11 @@ Physiological data are collected from wearable sensors (heart rate, HRV, GSR, te
 
 Dialogue data are constructed from:
 
-Professional psychological corpus40%
+Psychoeducation Corpus 24.60%
 
-Empathetic dialogue40%
+Empathetic Support Corpus 47.70%
 
-General Dialogue20%
+Therapeutic Guidance Corpus  27.60%
 
 Curated empathetic responses enriched with emojis for warmth
 
